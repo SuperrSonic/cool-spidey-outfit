@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1.0">
+	<name>Cool Spidey Outfit</name>
+	<coder>Diego A.</coder>
+	<version>1.0</version>
+	<release_date>2024</release_date>
+	<short_description>Use your favorite spidey suit!</short_description>
+	<long_description>Patch your 'Spider-Man 2' game ISO
+to change to a different spidey suit.
+
+* SPIDER-MAN 2000 (N64/PS/DC)
+* Black Suit 2000
+* Black Suit 2007
+* Spider-Man 2099
+* Black Suit 2099
+* Super Silverizer
+* Barbie x BLACKPINK
+* Green With Evil
+* Restore Original
+* Load suit.tpl from storage
+</long_description>
+<arguments>
+  <arg>iso-path="usb:/games/Spider-Man 2 [GK2E52]/game.iso"</arg>
+
+ <!-- <arg>--ask-deflicker</arg> -->
+ <!-- <arg>--no-search</arg> -->
+ <!-- <arg>--ask-hud</arg> -->
+ 
+ <!-- Override the offset to the asset pak file. -->
+ <!-- <arg>addr-pak="0x09BA4B30"</arg> -->
+</arguments>
+<ahb_access />
+</app>
